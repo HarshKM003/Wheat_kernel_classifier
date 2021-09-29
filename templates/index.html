@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wheat Kernel Predictor</title>
+</head>
+<body>
+
+    <h1>Wheat Kernel Predictor</h1>
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+    <form method="post" action="/predict">
+        <label>Area</label><br>
+        <input type="text" name="Area"><br><br>
+
+        <label>Perimeter</label><br>
+        <input type="text" name="Perimeter"><br><br>
+
+        <label>Compactness</label><br>
+        <input type="text" name="Compactness"><br><br>
+		
+		<label>Length</label><br>
+        <input type="text" name="Length"><br><br>
+		
+		<label>Width</label><br>
+        <input type="text" name="Width"><br><br>
+		
+		<label>Asymmetry Coefficient</label><br>
+        <input type="text" name="Asymmetry Coefficient"><br><br>
+		
+		<label>Length of Kernel Groove</label><br>
+        <input type="text" name="Length of kernel Groove"><br><br>
+		
+		
+		
+		
+
+        <input type="submit" value="Predict"><br><br>
+    </form>
+
+</body>
+</html>
