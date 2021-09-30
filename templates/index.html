@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Wheat Kernel Predictor</title>
+    <title>Wheat Kernel Predictor </title>
 </head>
-<body>
+<body style="background-color:yellow;">
+<center>
 
-    <h1>Wheat Kernel Predictor</h1>
+    <h1 style="text-align: center">Wheat Kernel Predictor</h1>
     {% if result %}
         <p>{{ result }}</p>
     {% endif %}
+
     <form method="post" action="/predict">
         <label>Area</label><br>
         <input type="text" name="Area"><br><br>
@@ -38,6 +40,6 @@
 
         <input type="submit" value="Predict"><br><br>
     </form>
-
+</center>
 </body>
 </html>
