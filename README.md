@@ -2,7 +2,7 @@
 This is a wheat kernel classifier web application.
 
 Data Description:
-Data Description: This dataset predicts the type of kernel based on the different indicators as below:
+This dataset predicts the type of kernel based on the different indicators as below:
 To construct the data, seven geometric parameters of wheat kernels were measured:
 1. Area A,
 2. Perimeter P,
